@@ -303,3 +303,7 @@ border-radius: 4px;
     color: #F4F4FD;
     max-width: 264px;
 }
+
+.section-ul .list:first-child {
+    border-radius: 0px 0px 4px 4px;
+}
