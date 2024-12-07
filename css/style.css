@@ -176,6 +176,11 @@ ul {
     padding: 120px 0;
 }
 
+.second-section .section-ul .list .text {
+    text-align: left;
+    /* Yalnızca second-section içindeki yazılar sola yaslanır */
+}
+
 .visually-hidden {
         position: absolute;
         width: 1px;
