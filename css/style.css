@@ -188,8 +188,7 @@ ul {
         clip: rect(0 0 0 0);
         overflow: hidden;
 }
-
-
+    
 
 .section-ul{
     display: flex;
@@ -199,6 +198,15 @@ ul {
 
 .section-ul .list.section-third-list{
 width: calc((100% - 48px) / 4);
+/* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* Drop-shadow ekledik */
+border-radius: 4px;
+    /* Köşe yuvarlama */
+}
+
+.our-team .list.section-third-list {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Drop-shadow */
 }
 
 .four{
@@ -225,7 +233,7 @@ width: calc((100% - 48px) / 4);
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.19);
+    -box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.19);-
 }
 
 .section-ul .list.section-second-list{
